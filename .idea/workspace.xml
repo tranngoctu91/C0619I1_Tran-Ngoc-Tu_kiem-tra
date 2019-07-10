@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91888d08-db65-474b-8a66-44d8e286e2db" name="Default Changelist" comment="" />
+    <list default="true" id="91888d08-db65-474b-8a66-44d8e286e2db" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/createArray.html" beforeDir="false" afterPath="$PROJECT_DIR$/createArray.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/isPrime.html" beforeDir="false" afterPath="$PROJECT_DIR$/isPrime.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumDiagonal.html" beforeDir="false" afterPath="$PROJECT_DIR$/sumDiagonal.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,8 +21,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/createArray.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="144">
+              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sumDiagonal.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -32,7 +46,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -41,6 +55,7 @@
         <option value="$PROJECT_DIR$/check prime.html" />
         <option value="$PROJECT_DIR$/listPrime.html" />
         <option value="$PROJECT_DIR$/sumDiagonal.html" />
+        <option value="$PROJECT_DIR$/isPrime.html" />
         <option value="$PROJECT_DIR$/createArray.html" />
       </list>
     </option>
@@ -57,8 +72,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -98,11 +113,12 @@
       <workItem from="1562747865283" duration="706000" />
       <workItem from="1562748730568" duration="832000" />
       <workItem from="1562749770510" duration="570000" />
+      <workItem from="1562751938376" duration="1868000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7713000" />
+    <option name="totallyTimeSpent" value="9581000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -153,13 +169,6 @@
     <entry file="file://$PROJECT_DIR$/../../section4/in20sontodautien/in20sontodautien.html" />
     <entry file="file://$PROJECT_DIR$/check prime.html" />
     <entry file="file://$PROJECT_DIR$/../../section5/arraytrain/array_print.html" />
-    <entry file="file://$PROJECT_DIR$/sumDiagonal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/listPrime.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -167,10 +176,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/isPrime.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sumDiagonal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/createArray.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="144">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
         </state>
       </provider>
     </entry>

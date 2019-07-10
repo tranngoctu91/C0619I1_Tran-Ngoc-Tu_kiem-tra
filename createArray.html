@@ -12,22 +12,18 @@ Result: <span id="result"></span>
 </body>
 <script>
     let inputArray =
-        [[1, 2,],
-            [3, 4]];
+        [[1, 2, 3, 6],
+            [3, 4, 5, 9]];
     let outputArray = [];
 
     function createArray() {
-
-
         for (let i = 0; i < inputArray.length; i++) {
-            if (inputArray[i].length - 1 % 2 > 0) {
+            if ((inputArray[i].length - 1) % 2 !== 0) {
                 inputArray[i].reverse();
             }
             for (let j = 0; j < inputArray[i].length; j++) {
-
                 outputArray.push(inputArray[i][j]);
             }
-
         }
         document.getElementById('result').innerHTML = outputArray;
     }
