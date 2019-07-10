@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>listPrime</title>
+</head>
+<body>
+
+<button onclick="listPrime()">LIST</button>
+<br>
+Result: <span id="result"></span>
+</body>
+<script>
+    let inputArray = [1, 5, 7, 9, 10, 17, 18];
+    let outputArray = [];
+
+    function listPrime() {
+        for (let i = 0; i < inputArray.length; i++) {
+            if (checkPrime(inputArray[i]) == true) {
+                outputArray.push(inputArray[i]);
+
+            }
+        }
+        document.getElementById('result').innerHTML = outputArray;
+    }
+
+
+    function checkPrime(number) {
+
+        if (number < 2) {
+            return false;
+        } else {
+
+            for (let i = 2; i <= Math.sqrt(number); i++) {
+
+                if (number % i == 0) {
+                    return false;
+                }
+            }
+            return true;
+
+
+        }
+
+    }
+</script>
+</html>
